@@ -1,0 +1,142 @@
+body {
+    margin: 0px;
+    background-color: lightskyblue;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #222831;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 5.625rem;
+    font-family: 'Parisienne', cursive;
+    color: tomato;
+}
+
+h2 {
+    font-size: 2.0rem;
+    color: cornflowerblue;
+    font-weight: normal;
+    line-height: 2rem;
+}
+
+h3 {
+    color: #00ADB5;
+}
+
+a {
+    color: #00ADB5;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.dotted-hr {
+
+    border-style: dotted none none;
+    width: 15%;
+    border-color: #00ADB5;
+    border-width: 5px;
+
+}
+
+.top-container {
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    padding-top: 5em;
+    background-color: gainsboro;
+    padding-bottom: 5em;
+}
+
+.bottom-container {
+    padding-top: 2em;
+    background-color: lightskyblue;
+    padding-bottom: 1em;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 70px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+}
+
+.skills {
+    margin-top: 4em;
+}
+
+.contact-me {
+    margin-top: 4em;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: start;
+    line-height: 2;
+}
+
+.footer-copyright {
+    margin-bottom: 0px;
+}
+
+.btn {
+    background: #70c6ff;
+    background-image: -webkit-linear-gradient(top, #70c6ff, #126396);
+    background-image: -moz-linear-gradient(top, #70c6ff, #126396);
+    background-image: -ms-linear-gradient(top, #70c6ff, #126396);
+    background-image: -o-linear-gradient(top, #70c6ff, #126396);
+    background-image: linear-gradient(to bottom, #70c6ff, #126396);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    color: whitesmoke;
+    margin-top: 100px;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+#pf {
+    height: 200px;
+    width: 200px;
+}
+
+#computer {
+    width: 25%;
+    float: left;
+    margin-right: 2em;
+}
+
+#angela {
+    width: 25%;
+    float: right;
+    margin-left: 2em;
+}
+
+
+#pf-description {
+    padding-bottom: 2em;
+}
+
+#contact-me-p {
+    padding-bottom: 2em;
+}
